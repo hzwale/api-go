@@ -35,7 +35,7 @@ import (
 func main() {
   var conn ddb.DBConnection;
   conn.Init();
-  conn.Connect("localhost",8920,"admin","123456");
+  conn.Connect("127.0.0.1",8920,"admin","123456");
 }
 ```
 
@@ -660,7 +660,7 @@ fmt.Println(price0.GetString());
 ---
 * [Go API 使用样例](example/README_CN.md)
 
-* 数据形式列表（`GetFrom`函数返回值对应的数据形式）
+* 数据形式列表（`GetForm`函数返回值对应的数据形式）
 
 | 序号       | 数据形式          |
 |:------------- |:-------------|
